@@ -5,3 +5,8 @@
 *.elf
 *.dis
 *.log
+*.svwf
+*.dump
+tb
+build-tb/
+.simvision/

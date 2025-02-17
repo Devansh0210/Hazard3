@@ -13,7 +13,7 @@ BUILD_DIR := build-$(patsubst %.f,%,$(DOTF))
 
 # Note: clang++-18 has a >20x compile time regression, even at low
 # optimisation levels. I have tried clang++-16 and clang++-17, both fine.
-CLANGXX   := clang++-16
+CLANGXX   := clang++-15
 
 .PHONY: clean all lint
 
